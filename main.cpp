@@ -1,15 +1,12 @@
 
 #include <iostream>
 using namespace std;
-#include <ctime>
+//mediante esta ordenamiento de Mergesort dividimos nuestro arreglo para ordenar de la manera mas eficinete ;
 #include <fstream>
 
 void dividir(int a[], int inicial, int final);
 
 void fusionar(int a[], int pinicial, int pfinal, int medio);
-
-
-
 
 
 int main()
